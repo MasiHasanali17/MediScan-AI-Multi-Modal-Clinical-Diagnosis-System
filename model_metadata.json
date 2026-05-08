@@ -1,0 +1,26 @@
+{
+  "model_type": "Random Forest (Calibrated)",
+  "n_estimators": 200,
+  "n_classes": 15,
+  "classes": [
+    "Anemia",
+    "Asthma",
+    "Bronchitis",
+    "COVID-19",
+    "Common Cold",
+    "Dengue",
+    "Diabetes",
+    "Flu",
+    "Gastritis",
+    "Heart Condition",
+    "Hypertension",
+    "Migraine",
+    "Pneumonia",
+    "Typhoid",
+    "UTI"
+  ],
+  "n_training_samples": 120,
+  "cv_accuracy": 0.7667,
+  "vectorizer": "TF-IDF (unigrams + bigrams)",
+  "features": 524
+}

@@ -1,0 +1,14 @@
+fastapi==0.111.0
+uvicorn==0.29.0
+python-multipart==0.0.9
+pydantic==2.7.1
+scikit-learn==1.4.2
+joblib==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+torch==2.3.0
+torchvision==0.18.0
+Pillow==10.3.0
+streamlit==1.35.0
+plotly==5.22.0
+requests==2.32.2
