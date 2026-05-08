@@ -141,40 +141,6 @@ Frontend runs at: `http://localhost:8501`
 
 ---
 
-## 🔌 API Endpoints
-
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | `/` | System info |
-| GET | `/health` | Health check — confirms backend is online |
-| GET | `/info` | Model metadata, accuracy, class list |
-| POST | `/symptoms` | Predict disease from symptom text |
-| POST | `/image` | Analyze chest X-ray image |
-
-### Example Request — Symptom Prediction
-```bash
-curl -X POST http://localhost:8000/symptoms \
-  -H "Content-Type: application/json" \
-  -d '{"text": "fever cough body ache chills sweating"}'
-```
-
-### Example Response
-```json
-{
-  "disease": "Flu",
-  "confidence": 0.8732,
-  "status": "success",
-  "message": "Predicted with 87.3% confidence.",
-  "top3": [
-    {"disease": "Flu", "confidence": 0.8732},
-    {"disease": "COVID-19", "confidence": 0.0721},
-    {"disease": "Common Cold", "confidence": 0.0312}
-  ]
-}
-```
-
----
-
 ## 🧪 Sample Symptom Inputs to Test
 
 ```
